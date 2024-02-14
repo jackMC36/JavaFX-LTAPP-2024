@@ -1,0 +1,11 @@
+primaryStage.setTitle("Générateur de lots");
+Button btn = new Button(); btn.setText("Choississez un lot random!");
+btn.setOnAction(new EventHandler<ActionEvent>() {
+ 
+@Override
+public void handle(ActionEvent event) {
+    System.out.println("Hello World!");
+        }
+});
+
+root.getChildren().add(btn);

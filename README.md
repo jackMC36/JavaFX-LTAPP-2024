@@ -1,6 +1,6 @@
 # Lottery-App-JavaFX
 
-Project created for a french BDE in Clermont-Ferrand that chooses a randomly sourced gift from a list of gifts once you press on a button. Created a GUI with a nice animation.
+Project created for a french BDE in CLermont-Ferrand that chooses a randomly sourced gift from a source of gifts once you press on a button.
 
 Details on JavaFX for future Projects:
 
