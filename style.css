@@ -1,0 +1,13 @@
+
+/* Apply to all buttons of the Button type */
+Button{
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-font-family: sans-serif;
+  -fx-alignement: center;
+}
+
+AnchorPane{
+  -fx-background-color: rgb(184, 201, 255);
+}
