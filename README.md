@@ -1,19 +1,17 @@
 # Lottery-App-JavaFX
 
-Project created for a french BDE in CLermont-Ferrand that chooses a randomly sourced gift from a source of gifts once you press on a button.
+LANGUAGES USED: Java(JavaFX library), FXML, CSS 
 
-Details on JavaFX for future Projects:
+DESCRIPTION: Project created for a french BDE named Adess in CLermont-Ferrand that chooses a randomly sourced gift from a list of gifts once you press on a button.
+I created a GUI in JavaFX and used CSS as a stylesheet. The GUI has a paramater where you can choose the available gifts and select them (Radio Menu Item). It also has an option button where it takes to another fxml file to customise the color and other details of the main fxml file.
 
-/**
- * The main() method is ignored in correctly deployed JavaFX application.
- * main() serves only as fallback in case the application can not be
- * launched through deployment artifacts, e.g., in IDEs with limited FX
- * support. NetBeans ignores main().
- *
- * @param args the command line arguments
- */
-public class app extends Application {
-    public static void main(String[] args) {
-        launch(args);
-    }
+FILES:
+- app.java (main Java file)
+- Controler.java (Controller Class)
+- style.css (main stylesheet)
+- app.fxml (Main GUI file)
+- logo.png
+
+INTERFACES: Visual Studio Code and Scene Builder
+
 
