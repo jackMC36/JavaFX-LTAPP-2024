@@ -26,6 +26,8 @@ public class app extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("BDE Adess");
         Image icon = new Image("logo.png");
+        primaryStage.setFullScreen(true);
+        primaryStage.setFullScreenExitHint("Appuyez sur échap pour sortir");
         primaryStage.getIcons().add(icon);
         primaryStage.show();
     }
