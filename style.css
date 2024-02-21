@@ -1,14 +1,17 @@
 
 /* Apply to all buttons of the Button type */
 Button{
-  -fx-border-color: black;
-  -fx-border-width: 2px;
-  -fx-border-radius: 5px;
+
   -fx-font-family: sans-serif;
+  -fx-background-color: 
+    linear-gradient(to bottom, rgba(190, 164, 20, 0.6), rgba(190, 164, 20, 0.9)); /* Add this line */
   -fx-alignement: center;
 }
-
 AnchorPane{
-  -fx-background-color: rgb(94, 132, 128);
-  
+  -fx-background-color: 
+    radial-gradient(center 50% 50%, radius 80%, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05)),
+    linear-gradient(to bottom, rgba(200, 200, 200, 0.6), rgba(150, 150, 150, 0.9)),
+    linear-gradient(to bottom, rgba(200, 200, 200, 0.4), transparent),
+    linear-gradient(to right, rgba(200, 200, 200, 0.4), transparent),
+    linear-gradient(to left, rgba(200, 200, 200, 0.4), transparent);
 }
