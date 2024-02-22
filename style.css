@@ -15,3 +15,5 @@ AnchorPane{
     linear-gradient(to right, rgba(200, 200, 200, 0.4), transparent),
     linear-gradient(to left, rgba(200, 200, 200, 0.4), transparent);
 }
+
+.WinText{}

@@ -57,18 +57,25 @@
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="870.0" prefWidth="1900.0" stylesheets="@style.css" VBox.vgrow="ALWAYS">
          <children>
-            <ImageView fitHeight="933.0" fitWidth="591.0" layoutX="676.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="968.0" fitWidth="1897.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bg.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="933.0" fitWidth="591.0" layoutX="676.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@machine_template.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="slot" fitHeight="466.0" fitWidth="744.0" layoutX="737.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="slot" fitHeight="466.0" fitWidth="744.0" layoutX="737.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@slot.png" />
                </image>
             </ImageView>
-            <Button layoutX="1136.0" layoutY="808.0" mnemonicParsing="false" onAction="#PlayWheel" prefHeight="43.0" prefWidth="66.0" text="start" />
-            <Button layoutX="1148.0" layoutY="894.0" mnemonicParsing="false" onAction="#Stop" prefHeight="43.0" prefWidth="51.0" />
+            <Button layoutX="1136.0" layoutY="823.0" mnemonicParsing="false" onAction="#PlayWheel" prefHeight="43.0" prefWidth="66.0" text="start" />
+            <Button layoutX="1148.0" layoutY="914.0" mnemonicParsing="false" onAction="#Stop" prefHeight="43.0" prefWidth="51.0" />
+            <ImageView fx:id="Win" fitHeight="411.0" fitWidth="488.0" layoutX="1299.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="WinText" fitHeight="150.0" fitWidth="400.0" layoutX="1338.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true" />
          </children>
     </AnchorPane>
   </children>
